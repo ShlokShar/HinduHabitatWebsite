@@ -43,10 +43,16 @@ app.config['SECRET_KEY'] = os.getenv("SECRET_KEY")
 
 mail = Mail(app)
 
+
 @app.route('/')
 def home():
     download_count, reviews = get_variables()
     return render_template("home.html", download_count=download_count, reviews=reviews)
+
+
+@app.errorhandler(404)
+def not_found(error):
+    return render_template("404.html")
 
 
 @app.route("/features")
