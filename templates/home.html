@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="../static/img/favicon.ico">
+    <link href="../static/css/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="w-full" style="background-color:#FFF4DC;">
+    <!--HEADER-->
+    <div class="w-full bg-accent flex justify-center">
+        <!--NAVBAR-->
+        <div class="flex min-[850px]:flex-row flex-col min-[850px]:justify-between min-[850px]:w-[1134px] max-[850px]:items-start bg-accent font-ubuntu px-6 w-full">
+            <img class="max-[850px]:pt-2" src="../static/img/home/logo.png">
+            <div class="flex flex-row space-x-4 items-center max-[850px]:pb-2">
+                <p onclick="window.location.href='/features';" class="text-primary hover:cursor-pointer hover:translate-y-0.5 transform transition duration-200">Features</p>
+                <p onclick="window.location.href='/donate';" class="text-primary px-2 py-1 rounded-lg hover:translate-y-0.5 transform transition duration-200 border-primary hover:cursor-pointer bg-secondary border-2">Donate</p>
+            </div>
+        </div>
+    </div>
+    <!--MISSION PAGE-->
+    <div class="w-full flex justify-center pt-16">
+        <div class="flex flex-row min-[850px]:w-[1134px] justify-between px-6 min-[850px]:h-[524px]">
+            <div class="flex flex-col justify-start w-full min-[850px]:w-[370px] items-start font-ubuntu space-y-6">
+                <div class="flex flex-col justify-start">
+                    <p class="text-primary text-[16px]">Hindu Habitat:</p>
+                    <p class="text-black text-[45px] font-semibold leading-[54px]">Where <span class="text-[#854A4A]">Ancient Wisdom</span> Meets the Palm of <span class="text-primary">Your</span></spanYour> Hand.</p>
+                </div>
+                <div>
+                    <p class="text-black text-[16px]">Downloads:</p>
+                    <p class="text-black text-[16px] font-semibold">5,000</p>
+                    <p class="pt-2 text-gray-500">Utilize Hindu resources at your fingertips. With Hindu Habitat, access a comprehensive festival calendar, daily prayers, and sacred scriptures all in one app.</p>
+                </div>
+                <div class="pb-4">
+                    <a href="https://apps.apple.com/us/app/hindu-habitat/id6450930877"><img src="../static/img/home/app_store_download.png" class="hover:cursor-pointer" width="150px"></a>
+                </div>
+            </div>
+            <div class="min-[850px]:grow flex flex-col justify-center min-[850px]:w-[370px] items-center font-ubuntu px-3 space-y-6">
+                <img src="../static/img/home/mission_phone.png" width="260px" class="rotate-[15deg] max-[850px]:hidden">
+            </div>
+        </div>
+    </div>
+    <!--ADDITIONAL INFORMATION / ACHIEVEMENTS-->
+    <div class="w-full flex flex-col items-center justify-center pt-16 bg-[#F7D785] space-y-6 pb-16 px-6">
+        <p class="font-ubuntu text-primary text-[24px] font-semibold">Your Digital Companion for All Things Hindu</p>
+        <div class="flex flex-row max-[850px]:flex-col min-[850px]:space-x-4 max-[850px]:space-y-4">
+            <div class="flex flex-col hover:cursor-default">
+                <img src="../static/img/home/HAF.png" class="rounded-t-[20px] min-[850px]:w-[420px] w-[250px]">
+                <p class="bg-[#583636] text-[20px] px-3 py-2 rounded-b-[20px] text-white font-inter min-[850px]:w-[420px] w-[250px]">Recognized by the <span class="font-semibold">Hindu American Foundation</span></p>
+            </div>
+            <div class="flex flex-col justify-between min-[850px]:items-start items-center max-[850px]:space-y-2">
+                <div class="relative">
+                    <img src="../static/img/home/download_count.png" class="rounded-[20px]" width="232px">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <p class="text-white text-lg font-bold bg-opacity-50 rounded-md px-2 py-1">
+                            5,000<br>Downloads<br>Worldwide
+                        </p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="../static/img/home/reviews.png" class="rounded-[20px]" width="232px">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <p class="text-white text-lg font-bold bg-opacity-50 rounded-md px-2 py-1">
+                            4.9 / 5 Stars<br>on the App Store
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <div class="w-full flex justify-center pt-10 bg-[#0e1c25] pb-14">
+        <div class="flex flex-row justify-around w-[1134px] items-start text-white font-inter px-6 text-[12px]">
+            <p onclick="window.location.href='/contact';" class="hover:underline hover:cursor-pointer">Contact Us</p>
+            <p onclick="window.location.href='/privacy';" class="hover:underline hover:cursor-pointer">Privacy Policy</p>
+            <p class="hover:underline hover:cursor-pointer">Copyright Policy</p>
+        </div>
+    </div>
+</body>
+</html>

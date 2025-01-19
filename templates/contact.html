@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="../static/img/favicon.ico">
+    <link href="../static/css/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="flex w-full min-h-screen" style="background-color:#FFF4DC;">
+    <div class="flex flex-row w-full font-inter">
+        <form class="w-[400px] flex flex-col justify-center items-center space-y-8" method="post">
+            <img src="../static/img/contact/contact.png" class="w-[216px]">
+            <div class="flex flex-col space-y-2 justify-center w-[216px]">
+                <label for="fullname">Full Name:</label>
+                <input type="name" id="fullname" name="fullname" class="w-[100%] border-4 border-[#D9D9D9] rounded-[15px] h-[37px] px-2">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="w-[100%] border-4 border-[#D9D9D9] rounded-[15px] h-[37px] px-2">
+                <br>
+                <label for="message">Message:</label>
+                <input type="text" id="message" name="message" class="w-[100%] border-4 border-[#D9D9D9] rounded-[15px] h-[37px] px-2">
+            </div>
+            <input type="submit" id="submit" name="submit" class="w-[216px] font-semibold rounded-[5px] py-1 text-[20px] text-white" style="background: linear-gradient(to right, #854A4A 50%, #6E4C04 50%); background-size: 200% 100%; background-position: right bottom; transition: background-position 0.5s ease;" onmouseover="this.style.backgroundPosition='left bottom'" onmouseout="this.style.backgroundPosition='right bottom'">
+        </form>
+        <div class="flex grow pr-4 pb-4 pt-4">
+            <div class="bg-[#854A4A] w-full rounded-[20px]"></div>
+        </div>
+    </div>
+</body>
+</html>
