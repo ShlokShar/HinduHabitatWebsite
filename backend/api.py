@@ -1,5 +1,7 @@
 from backend.imports import *
 
+
+
 with open("data.json") as file:
     data = json.load(file)
 
@@ -72,3 +74,9 @@ def fetch_articles():
         })
 
     return article_data
+
+
+class VariableForm(FlaskForm):
+    var1 = StringField('Variable 1', validators=[InputRequired(), Length(min=1, max=100)])
+    var2 = StringField('Variable 2', validators=[InputRequired(), Length(min=1, max=100)])
+    submit = SubmitField('Update Variables')

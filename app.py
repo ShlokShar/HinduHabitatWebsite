@@ -1,6 +1,29 @@
 from backend.api import *
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///website_variables.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
+load_dotenv()
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD")
+
+
+class WebsiteVariables(db.Model):
+    id = db.Column(db.String, primary_key=True)
+    download_count = db.Column(db.String, nullable=False)
+    review = db.Column(db.String, nullable=False)
+
+
+def get_variables():
+    record = WebsiteVariables.query.filter_by(id="unique_id").first()
+    if record:
+        return record.download_count, record.review
+    return None, None
+
+
+with app.app_context():
+    db.create_all()  # Creates the table if it doesn't exist
 
 # Cache settings for articles
 cache_data = None
@@ -11,19 +34,19 @@ CACHE_DURATION = 3600
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'shlokshar.biz@gmail.com'
-app.config['MAIL_PASSWORD'] = 'dard pvwm vddp ltoz'
-app.config['MAIL_DEFAULT_SENDER'] = 'shlokshar.biz@gmail.com'
+app.config['MAIL_USERNAME'] = 'hinduhabitatapp@gmail.com'
+app.config['MAIL_PASSWORD'] = os.getenv("MAIL_PASSWORD")
+app.config['MAIL_DEFAULT_SENDER'] = 'hinduhabitatapp@gmail.com'
 app.config['TESTING'] = False
 app.config['MAIL_SUPPRESS_SEND'] = False
-app.config["DEBUG"] = True
+app.config['SECRET_KEY'] = os.getenv("SECRET_KEY")
 
 mail = Mail(app)
 
-
 @app.route('/')
 def home():
-    return render_template("home.html")
+    download_count, reviews = get_variables()
+    return render_template("home.html", download_count=download_count, reviews=reviews)
 
 
 @app.route("/features")
@@ -44,11 +67,11 @@ def contact():
         message_content = f"From email: {email}\n\nMessage:\n{request.form.get('message')}"
         msg = Message(
             subject=f"Hindu Habitat Message from {name}",
-            recipients=["shlokshar.biz@gmail.com"],
+            recipients=["hinduhabitatapp@gmail.com"],
             body=message_content
         )
         mail.send(msg)
-        return "Message sent successfully!"
+        return flask.redirect("/")
     return render_template('contact.html')
 
 
@@ -94,6 +117,46 @@ def get_articles():
         cache_data = fetch_articles()
         cache_time = current_time
     return jsonify(cache_data)
+
+
+@app.route("/admin", methods=["GET", "POST"])
+def admin():
+    if "logged_in" not in flask.session:
+        if request.method == "POST":
+            username = request.form.get("username")
+            password = request.form.get("password")
+
+            if username == "admin" and password == ADMIN_PASSWORD:
+                flask.session["logged_in"] = True
+                return flask.redirect("/admin")
+        return render_template("login.html")
+    form = VariableForm()
+    if request.method == "POST":
+        # Save the new values for the variables
+        var1 = form.var1.data
+        var2 = form.var2.data
+        record = WebsiteVariables.query.filter_by(id="unique_id").first()
+
+        if record:
+            print("1")
+            record.download_count = var1
+            record.review = var2
+        else:
+            print("2")
+            # If no record exists, create a new one
+            new_record = WebsiteVariables(id="unique_id", download_count=var1, review=var2)
+            db.session.add(new_record)
+        print("commited")
+        db.session.commit()
+        flask.flash('Variables updated successfully', 'success')
+
+    # Retrieve current values
+    record = WebsiteVariables.query.filter_by(id="unique_id").first()
+    if record:
+        form.var1.data = record.download_count
+        form.var2.data = record.review
+
+    return render_template('admin.html', form=form)
 
 
 if __name__ == '__main__':

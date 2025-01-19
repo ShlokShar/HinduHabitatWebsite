@@ -33,7 +33,7 @@
                 </div>
                 <div>
                     <p class="text-black text-[16px]">Downloads:</p>
-                    <p class="text-black text-[16px] font-semibold">5,000</p>
+                    <p class="text-black text-[16px] font-semibold">{{download_count}}+</p>
                     <p class="pt-2 text-gray-500">Utilize Hindu resources at your fingertips. With Hindu Habitat, access a comprehensive festival calendar, daily prayers, and sacred scriptures all in one app.</p>
                 </div>
                 <div class="pb-4">
@@ -58,7 +58,7 @@
                     <img src="../static/img/home/download_count.png" class="rounded-[20px]" width="232px">
                     <div class="absolute inset-0 flex items-center justify-center">
                         <p class="text-white text-lg font-bold bg-opacity-50 rounded-md px-2 py-1">
-                            5,000<br>Downloads<br>Worldwide
+                            {{download_count}}+<br>Downloads<br>Worldwide
                         </p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     <img src="../static/img/home/reviews.png" class="rounded-[20px]" width="232px">
                     <div class="absolute inset-0 flex items-center justify-center">
                         <p class="text-white text-lg font-bold bg-opacity-50 rounded-md px-2 py-1">
-                            4.9 / 5 Stars<br>on the App Store
+                            {{reviews}} / 5 Stars<br>on the App Store
                         </p>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
         <div class="flex flex-row justify-around w-[1134px] items-start text-white font-inter px-6 text-[12px]">
             <p onclick="window.location.href='/contact';" class="hover:underline hover:cursor-pointer">Contact Us</p>
             <p onclick="window.location.href='/privacy';" class="hover:underline hover:cursor-pointer">Privacy Policy</p>
-            <p class="hover:underline hover:cursor-pointer">Copyright Policy</p>
+            <a href="https://apps.apple.com/us/app/hindu-habitat/id6450930877" class="hover:underline hover:cursor-pointer">iOS</a>
         </div>
     </div>
 </body>
