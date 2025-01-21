@@ -14,15 +14,15 @@
 <body class="flex w-full min-h-screen" style="background-color:#FFF4DC;">
     <div class="flex flex-row w-full font-inter">
         <form class="w-[400px] flex flex-col justify-center items-center space-y-8" method="post">
+            {{ form.hidden_tag() }}
             <img src="../static/img/contact/contact.png" class="w-[216px]">
             <div class="flex flex-col space-y-2 justify-center w-[216px]">
                 <label for="var1">Download Count:</label>
-                <input type="text" id="var1" name="var1" class="w-[100%] border-4 border-[#D9D9D9] rounded-[15px] h-[37px] px-2" required>
+                {{ form.var1(class="w-[100%] border-4 border-[#D9D9D9] rounded-[15px] h-[37px] px-2") }}
                 <label for="var2">Reviews:</label>
-                <input type="text" id="var2" name="var2" class="w-[100%] border-4 border-[#D9D9D9] rounded-[15px] h-[37px] px-2" required>
-                <br>
+                {{ form.var2(class="w-[100%] border-4 border-[#D9D9D9] rounded-[15px] h-[37px] px-2") }}
             </div>
-            <input type="submit" id="submit" name="submit" class="w-[216px] font-semibold rounded-[5px] py-1 text-[20px] text-white" style="background: linear-gradient(to right, #854A4A 50%, #6E4C04 50%); background-size: 200% 100%; background-position: right bottom; transition: background-position 0.5s ease;" onmouseover="this.style.backgroundPosition='left bottom'" onmouseout="this.style.backgroundPosition='right bottom'">
+            {{ form.submit(class="w-[216px] font-semibold rounded-[5px] py-1 text-[20px] text-white", style="background: linear-gradient(to right, #854A4A 50%, #6E4C04 50%); background-size: 200% 100%; background-position: right bottom; transition: background-position 0.5s ease;") }}
         </form>
         <div class="flex grow pr-4 pb-4 pt-4">
             <div class="bg-[#854A4A] w-full rounded-[20px]">

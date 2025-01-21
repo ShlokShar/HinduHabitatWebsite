@@ -136,28 +136,22 @@ def admin():
                 flask.session["logged_in"] = True
                 return flask.redirect("/admin")
         return render_template("login.html")
-    form = VariableForm()
-    if request.method == "POST":
-        # Save the new values for the variables
-        var1 = form.var1.data
-        var2 = form.var2.data
-        record = WebsiteVariables.query.filter_by(id="unique_id").first()
 
+    form = VariableForm()
+    record = WebsiteVariables.query.filter_by(id="unique_id").first()
+
+    if form.validate_on_submit():
+        flask.flash("Form Submitted", "success")
         if record:
-            print("1")
-            record.download_count = var1
-            record.review = var2
+            record.download_count = form.var1.data
+            record.review = form.var2.data
         else:
-            print("2")
-            # If no record exists, create a new one
-            new_record = WebsiteVariables(id="unique_id", download_count=var1, review=var2)
+            flask.flash("record not found", "success")
+            new_record = WebsiteVariables(id="unique_id", download_count=form.var1.data, review=form.var2.data)
             db.session.add(new_record)
-        print("commited")
         db.session.commit()
         flask.flash('Variables updated successfully', 'success')
-
-    # Retrieve current values
-    record = WebsiteVariables.query.filter_by(id="unique_id").first()
+        return flask.redirect("/admin")
     if record:
         form.var1.data = record.download_count
         form.var2.data = record.review
