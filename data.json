@@ -1,0 +1,1586 @@
+{
+    "festivals": [
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "January 2 2025"
+        },
+        {
+            "festivalName": "Lambodara Sankashti Chaturthi",
+            "festivalDate": "January 16 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "January 21 2025"
+        },
+        {
+            "festivalName": "Makara Sankranti",
+            "festivalDate": "January 14 2025"
+        },
+        {
+            "festivalName": "Lohri",
+            "festivalDate": "January 13 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "January 27 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "January 27 2025"
+        },
+        {
+            "festivalName": "Guru Gobind Singh Jayanti",
+            "festivalDate": "January 5 2025"
+        },
+        {
+            "festivalName": "Tailang Swami Jayanti",
+            "festivalDate": "January 9 2025"
+        },
+        {
+            "festivalName": "Swami Vivekananda Jayanti",
+            "festivalDate": "January 12 2025"
+        },
+        {
+            "festivalName": "Vivekananda Jayanti *Samvat",
+            "festivalDate": "January 20 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "February 1 2025"
+        },
+        {
+            "festivalName": "Dwijapriya Sankashti Chaturthi",
+            "festivalDate": "February 15 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "February 19 2025"
+        },
+        {
+            "festivalName": "Kumbha Sankranti",
+            "festivalDate": "February 12 2025"
+        },
+        {
+            "festivalName": "Maha Shivaratri",
+            "festivalDate": "February 25 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "February 25 2025"
+        },
+        {
+            "festivalName": "Vasant Panchami",
+            "festivalDate": "February 2 2025"
+        },
+        {
+            "festivalName": "Maha Shivaratri",
+            "festivalDate": "February 25 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "February 25 2025"
+        },
+        {
+            "festivalName": "Ganesha Jayanti",
+            "festivalDate": "February 1 2025"
+        },
+        {
+            "festivalName": "Narmada Jayanti",
+            "festivalDate": "February 4 2025"
+        },
+        {
+            "festivalName": "Guru Ravidas Jayanti",
+            "festivalDate": "February 11 2025"
+        },
+        {
+            "festivalName": "Lalita Jayanti",
+            "festivalDate": "February 11 2025"
+        },
+        {
+            "festivalName": "Yashoda Jayanti",
+            "festivalDate": "February 18 2025"
+        },
+        {
+            "festivalName": "Shabari Jayanti",
+            "festivalDate": "February 19 2025"
+        },
+        {
+            "festivalName": "Chhatrapati Shivaji Maharaj Jayanti",
+            "festivalDate": "February 19 2025"
+        },
+        {
+            "festivalName": "Janaki Jayanti",
+            "festivalDate": "February 20 2025"
+        },
+        {
+            "festivalName": "Maharishi Dayanand Saraswati Jayanti",
+            "festivalDate": "February 22 2025"
+        },
+        {
+            "festivalName": "Chhoti Holi",
+            "festivalDate": "March 13 2025"
+        },
+        {
+            "festivalName": "Holika Dahan",
+            "festivalDate": "March 13 2025"
+        },
+        {
+            "festivalName": "Holi",
+            "festivalDate": "March 14 2025"
+        },
+        {
+            "festivalName": "Gauri Puja",
+            "festivalDate": "March 31 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "March 2 2025"
+        },
+        {
+            "festivalName": "Bhalachandra Sankashti Chaturthi",
+            "festivalDate": "March 17 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "March 21 2025"
+        },
+        {
+            "festivalName": "Meena Sankranti",
+            "festivalDate": "March 14 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "March 27 2025"
+        },
+        {
+            "festivalName": "Gudi Padwa",
+            "festivalDate": "March 29 2025"
+        },
+        {
+            "festivalName": "Ugadi",
+            "festivalDate": "March 29 2025"
+        },
+        {
+            "festivalName": "Ranga Panchami",
+            "festivalDate": "March 19 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "March 27 2025"
+        },
+        {
+            "festivalName": "Ramakrishna Jayanti",
+            "festivalDate": "March 1 2025"
+        },
+        {
+            "festivalName": "Chaitanya Mahaprabhu Jayanti",
+            "festivalDate": "March 13 2025"
+        },
+        {
+            "festivalName": "Lakshmi Jayanti",
+            "festivalDate": "March 13 2025"
+        },
+        {
+            "festivalName": "Chhatrapati Shivaji Maharaj Jayanti",
+            "festivalDate": "March 16 2025"
+        },
+        {
+            "festivalName": "Jhulelal Jayanti",
+            "festivalDate": "March 30 2025"
+        },
+        {
+            "festivalName": "Matsya Jayanti",
+            "festivalDate": "March 31 2025"
+        },
+        {
+            "festivalName": "Bank's Holiday",
+            "festivalDate": "April 1 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "April 1 2025"
+        },
+        {
+            "festivalName": "Vikata Sankashti Chaturthi",
+            "festivalDate": "April 16 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "April 30 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "April 20 2025"
+        },
+        {
+            "festivalName": "Mesha Sankranti",
+            "festivalDate": "April 13 2025"
+        },
+        {
+            "festivalName": "Baisakhi",
+            "festivalDate": "April 13 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "April 25 2025"
+        },
+        {
+            "festivalName": "Lakshmi Panchami",
+            "festivalDate": "April 1 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "April 25 2025"
+        },
+        {
+            "festivalName": "Tara Jayanti",
+            "festivalDate": "April 5 2025"
+        },
+        {
+            "festivalName": "Swaminarayan Jayanti",
+            "festivalDate": "April 6 2025"
+        },
+        {
+            "festivalName": "Mahavir Swami Jayanti",
+            "festivalDate": "April 10 2025"
+        },
+        {
+            "festivalName": "Hanuman Jayanti",
+            "festivalDate": "April 12 2025"
+        },
+        {
+            "festivalName": "Ambedkar Jayanti",
+            "festivalDate": "April 14 2025"
+        },
+        {
+            "festivalName": "Vallabhacharya Jayanti",
+            "festivalDate": "April 23 2025"
+        },
+        {
+            "festivalName": "Parashurama Jayanti",
+            "festivalDate": "April 29 2025"
+        },
+        {
+            "festivalName": "Matangi Jayanti",
+            "festivalDate": "April 29 2025"
+        },
+        {
+            "festivalName": "Akshaya Tritiya",
+            "festivalDate": "April 29 2025"
+        },
+        {
+            "festivalName": "Ekadanta Sankashti Chaturthi",
+            "festivalDate": "May 15 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "May 29 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "May 19 2025"
+        },
+        {
+            "festivalName": "Vrishabha Sankranti",
+            "festivalDate": "May 14 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "May 25 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "May 25 2025"
+        },
+        {
+            "festivalName": "Shankaracharya Jayanti",
+            "festivalDate": "May 1 2025"
+        },
+        {
+            "festivalName": "Surdas Jayanti",
+            "festivalDate": "May 1 2025"
+        },
+        {
+            "festivalName": "Ramanuja Jayanti",
+            "festivalDate": "May 1 2025"
+        },
+        {
+            "festivalName": "Bagalamukhi Jayanti",
+            "festivalDate": "May 4 2025"
+        },
+        {
+            "festivalName": "Rabindranath Tagore Jayanti",
+            "festivalDate": "May 7 2025"
+        },
+        {
+            "festivalName": "Tagore Jayanti *Bengal",
+            "festivalDate": "May 8 2025"
+        },
+        {
+            "festivalName": "Narasimha Jayanti",
+            "festivalDate": "May 10 2025"
+        },
+        {
+            "festivalName": "Chhinnamasta Jayanti",
+            "festivalDate": "May 10 2025"
+        },
+        {
+            "festivalName": "Kurma Jayanti",
+            "festivalDate": "May 11 2025"
+        },
+        {
+            "festivalName": "Narada Jayanti",
+            "festivalDate": "May 13 2025"
+        },
+        {
+            "festivalName": "Hanuman Jayanti *Telugu",
+            "festivalDate": "May 22 2025"
+        },
+        {
+            "festivalName": "Shani Jayanti",
+            "festivalDate": "May 26 2025"
+        },
+        {
+            "festivalName": "Maharana Pratap Jayanti",
+            "festivalDate": "May 29 2025"
+        },
+        {
+            "festivalName": "Ganga Dussehra",
+            "festivalDate": "June 5 2025"
+        },
+        {
+            "festivalName": "Krishnapingala Sankashti Chaturthi",
+            "festivalDate": "June 14 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "June 28 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "June 17 2025"
+        },
+        {
+            "festivalName": "Mithuna Sankranti",
+            "festivalDate": "June 14 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "June 23 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "June 23 2025"
+        },
+        {
+            "festivalName": "Dhumavati Jayanti",
+            "festivalDate": "June 3 2025"
+        },
+        {
+            "festivalName": "Gayatri Jayanti",
+            "festivalDate": "June 6 2025"
+        },
+        {
+            "festivalName": "Kabirdas Jayanti",
+            "festivalDate": "June 10 2025"
+        },
+        {
+            "festivalName": "Jyeshtha Gauri Puja",
+            "festivalDate": "August 31 2025"
+        },
+        {
+            "festivalName": "Heramba Sankashti Chaturthi",
+            "festivalDate": "August 11 2025"
+        },
+        {
+            "festivalName": "Bahula Chaturthi",
+            "festivalDate": "August 12 2025"
+        },
+        {
+            "festivalName": "Ganesh Chaturthi",
+            "festivalDate": "August 26 2025"
+        },
+        {
+            "festivalName": "Kerala Vinayaka Chaturthi",
+            "festivalDate": "August 26 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "August 26 2025"
+        },
+        {
+            "festivalName": "Raksha Bandhan",
+            "festivalDate": "August 8 2025"
+        },
+        {
+            "festivalName": "Janmashtami *Smarta",
+            "festivalDate": "August 15 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "August 15 2025"
+        },
+        {
+            "festivalName": "Janmashtami *ISKCON",
+            "festivalDate": "August 16 2025"
+        },
+        {
+            "festivalName": "Simha Sankranti",
+            "festivalDate": "August 16 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "August 20 2025"
+        },
+        {
+            "festivalName": "Rishi Panchami",
+            "festivalDate": "August 27 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "August 20 2025"
+        },
+        {
+            "festivalName": "Gayatri Jayanti",
+            "festivalDate": "August 8 2025"
+        },
+        {
+            "festivalName": "Hayagriva Jayanti",
+            "festivalDate": "August 8 2025"
+        },
+        {
+            "festivalName": "Balarama Jayanti",
+            "festivalDate": "August 14 2025"
+        },
+        {
+            "festivalName": "Kali Jayanti",
+            "festivalDate": "August 15 2025"
+        },
+        {
+            "festivalName": "Varaha Jayanti",
+            "festivalDate": "August 25 2025"
+        },
+        {
+            "festivalName": "Vishwakarma Puja",
+            "festivalDate": "September 16 2025"
+        },
+        {
+            "festivalName": "Navpatrika Puja",
+            "festivalDate": "September 28 2025"
+        },
+        {
+            "festivalName": "Sandhi Puja",
+            "festivalDate": "September 29 2025"
+        },
+        {
+            "festivalName": "Saraswati Puja",
+            "festivalDate": "September 30 2025"
+        },
+        {
+            "festivalName": "Ayudha Puja",
+            "festivalDate": "September 30 2025"
+        },
+        {
+            "festivalName": "South Saraswati Puja",
+            "festivalDate": "September 30 2025"
+        },
+        {
+            "festivalName": "Chaturthi Shraddha",
+            "festivalDate": "September 10 2025"
+        },
+        {
+            "festivalName": "Vighnaraja Sankashti Chaturthi",
+            "festivalDate": "September 10 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "September 25 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "September 13 2025"
+        },
+        {
+            "festivalName": "Kanya Sankranti",
+            "festivalDate": "September 16 2025"
+        },
+        {
+            "festivalName": "Onam",
+            "festivalDate": "September 4 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "September 19 2025"
+        },
+        {
+            "festivalName": "Panchami Shraddha",
+            "festivalDate": "September 11 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "September 19 2025"
+        },
+        {
+            "festivalName": "Vamana Jayanti",
+            "festivalDate": "September 4 2025"
+        },
+        {
+            "festivalName": "Bhuvaneshvari Jayanti",
+            "festivalDate": "September 4 2025"
+        },
+        {
+            "festivalName": "Visvesvaraya Jayanti",
+            "festivalDate": "September 15 2025"
+        },
+        {
+            "festivalName": "Maharaja Agrasen Jayanti",
+            "festivalDate": "September 22 2025"
+        },
+        {
+            "festivalName": "Diwali",
+            "festivalDate": "October 20 2025"
+        },
+        {
+            "festivalName": "Dussehra",
+            "festivalDate": "October 1 2025"
+        },
+        {
+            "festivalName": "Kojagara Puja",
+            "festivalDate": "October 5 2025"
+        },
+        {
+            "festivalName": "Hanuman Puja",
+            "festivalDate": "October 19 2025"
+        },
+        {
+            "festivalName": "Lakshmi Puja",
+            "festivalDate": "October 20 2025"
+        },
+        {
+            "festivalName": "Chopda Puja",
+            "festivalDate": "October 20 2025"
+        },
+        {
+            "festivalName": "Sharda Puja",
+            "festivalDate": "October 20 2025"
+        },
+        {
+            "festivalName": "Kali Puja",
+            "festivalDate": "October 20 2025"
+        },
+        {
+            "festivalName": "Govardhan Puja",
+            "festivalDate": "October 21 2025"
+        },
+        {
+            "festivalName": "Chitragupta Puja",
+            "festivalDate": "October 22 2025"
+        },
+        {
+            "festivalName": "Chhath Puja",
+            "festivalDate": "October 27 2025"
+        },
+        {
+            "festivalName": "Jagaddhatri Puja",
+            "festivalDate": "October 30 2025"
+        },
+        {
+            "festivalName": "Vakratunda Sankashti Chaturthi",
+            "festivalDate": "October 9 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "October 25 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "October 12 2025"
+        },
+        {
+            "festivalName": "Tula Sankranti",
+            "festivalDate": "October 17 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "October 19 2025"
+        },
+        {
+            "festivalName": "Labh Panchami",
+            "festivalDate": "October 26 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "October 19 2025"
+        },
+        {
+            "festivalName": "Madhvacharya Jayanti",
+            "festivalDate": "October 1 2025"
+        },
+        {
+            "festivalName": "Buddha Jayanti",
+            "festivalDate": "October 1 2025"
+        },
+        {
+            "festivalName": "Gandhi Jayanti",
+            "festivalDate": "October 2 2025"
+        },
+        {
+            "festivalName": "Valmiki Jayanti",
+            "festivalDate": "October 6 2025"
+        },
+        {
+            "festivalName": "Meerabai Jayanti",
+            "festivalDate": "October 6 2025"
+        },
+        {
+            "festivalName": "Kamala Jayanti",
+            "festivalDate": "October 20 2025"
+        },
+        {
+            "festivalName": "Jalaram Bapa Jayanti",
+            "festivalDate": "October 28 2025"
+        },
+        {
+            "festivalName": "Dev Diwali",
+            "festivalDate": "November 4 2025"
+        },
+        {
+            "festivalName": "Ganadhipa Sankashti Chaturthi",
+            "festivalDate": "November 7 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "November 23 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "November 11 2025"
+        },
+        {
+            "festivalName": "Vrishchika Sankranti",
+            "festivalDate": "November 16 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "November 17 2025"
+        },
+        {
+            "festivalName": "Vivah Panchami",
+            "festivalDate": "November 25 2025"
+        },
+        {
+            "festivalName": "Naga Panchami *Telugu",
+            "festivalDate": "November 25 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "November 17 2025"
+        },
+        {
+            "festivalName": "Guru Nanak Jayanti",
+            "festivalDate": "November 4 2025"
+        },
+        {
+            "festivalName": "Kalabhairav Jayanti",
+            "festivalDate": "November 11 2025"
+        },
+        {
+            "festivalName": "Nehru Jayanti",
+            "festivalDate": "November 14 2025"
+        },
+        {
+            "festivalName": "Gita Jayanti",
+            "festivalDate": "November 30 2025"
+        },
+        {
+            "festivalName": "Akhuratha Sankashti Chaturthi",
+            "festivalDate": "December 7 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "December 23 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "December 11 2025"
+        },
+        {
+            "festivalName": "Dhanu Sankranti",
+            "festivalDate": "December 15 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "December 17 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "December 17 2025"
+        },
+        {
+            "festivalName": "Hanuman Jayanti *Kannada",
+            "festivalDate": "December 2 2025"
+        },
+        {
+            "festivalName": "Dattatreya Jayanti",
+            "festivalDate": "December 3 2025"
+        },
+        {
+            "festivalName": "Annapurna Jayanti",
+            "festivalDate": "December 4 2025"
+        },
+        {
+            "festivalName": "Bhairavi Jayanti",
+            "festivalDate": "December 4 2025"
+        },
+        {
+            "festivalName": "Hanuman Jayanti *Tamil",
+            "festivalDate": "December 19 2025"
+        },
+        {
+            "festivalName": "Guru Gobind Singh Jayanti",
+            "festivalDate": "December 26 2025"
+        },
+        {
+            "festivalName": "Tailang Swami Jayanti",
+            "festivalDate": "December 30 2025"
+        }
+    ],
+    "fasting": [
+        {
+            "festivalName": "Vaikuntha Ekadashi",
+            "festivalDate": "January 9 2025"
+        },
+        {
+            "festivalName": "Pausha Putrada Ekadashi",
+            "festivalDate": "January 9 2025"
+        },
+        {
+            "festivalName": "Shattila Ekadashi",
+            "festivalDate": "January 24 2025"
+        },
+        {
+            "festivalName": "Vaishnava Shattila Ekadashi",
+            "festivalDate": "January 25 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "January 27 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "January 2 2025"
+        },
+        {
+            "festivalName": "Lambodara Sankashti Chaturthi",
+            "festivalDate": "January 16 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "January 10 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "January 10 2025"
+        },
+        {
+            "festivalName": "Pausha Purnima Vrat",
+            "festivalDate": "January 13 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "January 26 2025"
+        },
+        {
+            "festivalName": "Magha Navratri",
+            "festivalDate": "January 29 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "January 10 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "January 26 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "January 21 2025"
+        },
+        {
+            "festivalName": "Lambodara Sankashti Chaturthi",
+            "festivalDate": "January 16 2025"
+        },
+        {
+            "festivalName": "Jaya Ekadashi",
+            "festivalDate": "February 7 2025"
+        },
+        {
+            "festivalName": "Gauna Jaya Ekadashi",
+            "festivalDate": "February 8 2025"
+        },
+        {
+            "festivalName": "Vaishnava Jaya Ekadashi",
+            "festivalDate": "February 8 2025"
+        },
+        {
+            "festivalName": "Vijaya Ekadashi",
+            "festivalDate": "February 23 2025"
+        },
+        {
+            "festivalName": "Maha Shivaratri",
+            "festivalDate": "February 25 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "February 25 2025"
+        },
+        {
+            "festivalName": "Maha Shivaratri",
+            "festivalDate": "February 25 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "February 1 2025"
+        },
+        {
+            "festivalName": "Dwijapriya Sankashti Chaturthi",
+            "festivalDate": "February 15 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "February 6 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "February 9 2025"
+        },
+        {
+            "festivalName": "Magha Purnima Vrat",
+            "festivalDate": "February 11 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "February 25 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "February 9 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "February 25 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "February 19 2025"
+        },
+        {
+            "festivalName": "Dwijapriya Sankashti Chaturthi",
+            "festivalDate": "February 15 2025"
+        },
+        {
+            "festivalName": "Amalaki Ekadashi",
+            "festivalDate": "March 9 2025"
+        },
+        {
+            "festivalName": "Papmochani Ekadashi",
+            "festivalDate": "March 25 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "March 27 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "March 2 2025"
+        },
+        {
+            "festivalName": "Bhalachandra Sankashti Chaturthi",
+            "festivalDate": "March 17 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "March 6 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "March 10 2025"
+        },
+        {
+            "festivalName": "Phalguna Purnima Vrat",
+            "festivalDate": "March 13 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "March 26 2025"
+        },
+        {
+            "festivalName": "Chaitra Navratri",
+            "festivalDate": "March 29 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "March 10 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "March 26 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "March 21 2025"
+        },
+        {
+            "festivalName": "Bhalachandra Sankashti Chaturthi",
+            "festivalDate": "March 17 2025"
+        },
+        {
+            "festivalName": "Kamada Ekadashi",
+            "festivalDate": "April 8 2025"
+        },
+        {
+            "festivalName": "Varuthini Ekadashi",
+            "festivalDate": "April 23 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "April 25 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "April 1 2025"
+        },
+        {
+            "festivalName": "Vikata Sankashti Chaturthi",
+            "festivalDate": "April 16 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "April 30 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "April 2 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "April 9 2025"
+        },
+        {
+            "festivalName": "Chaitra Purnima Vrat",
+            "festivalDate": "April 12 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "April 25 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "April 29 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "April 9 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "April 25 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "April 20 2025"
+        },
+        {
+            "festivalName": "Vikata Sankashti Chaturthi",
+            "festivalDate": "April 16 2025"
+        },
+        {
+            "festivalName": "Mohini Ekadashi",
+            "festivalDate": "May 7 2025"
+        },
+        {
+            "festivalName": "Apara Ekadashi",
+            "festivalDate": "May 23 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "May 25 2025"
+        },
+        {
+            "festivalName": "Ekadanta Sankashti Chaturthi",
+            "festivalDate": "May 15 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "May 29 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "May 9 2025"
+        },
+        {
+            "festivalName": "Vaishakha Purnima Vrat",
+            "festivalDate": "May 11 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "May 24 2025"
+        },
+        {
+            "festivalName": "Vat Savitri Vrat",
+            "festivalDate": "May 26 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "May 27 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "May 9 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "May 24 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "May 19 2025"
+        },
+        {
+            "festivalName": "Ekadanta Sankashti Chaturthi",
+            "festivalDate": "May 15 2025"
+        },
+        {
+            "festivalName": "Nirjala Ekadashi",
+            "festivalDate": "June 6 2025"
+        },
+        {
+            "festivalName": "Yogini Ekadashi",
+            "festivalDate": "June 21 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "June 23 2025"
+        },
+        {
+            "festivalName": "Krishnapingala Sankashti Chaturthi",
+            "festivalDate": "June 14 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "June 28 2025"
+        },
+        {
+            "festivalName": "Ganga Dussehra",
+            "festivalDate": "June 5 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "June 7 2025"
+        },
+        {
+            "festivalName": "Vat Purnima Vrat",
+            "festivalDate": "June 10 2025"
+        },
+        {
+            "festivalName": "Jyeshtha Purnima Vrat",
+            "festivalDate": "June 10 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "June 22 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "June 23 2025"
+        },
+        {
+            "festivalName": "Ashadha Navratri",
+            "festivalDate": "June 25 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "June 7 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "June 22 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "June 17 2025"
+        },
+        {
+            "festivalName": "Krishnapingala Sankashti Chaturthi",
+            "festivalDate": "June 14 2025"
+        },
+        {
+            "festivalName": "Devshayani Ekadashi",
+            "festivalDate": "July 6 2025"
+        },
+        {
+            "festivalName": "Kamika Ekadashi",
+            "festivalDate": "July 20 2025"
+        },
+        {
+            "festivalName": "Sawan Shivaratri",
+            "festivalDate": "July 22 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "July 22 2025"
+        },
+        {
+            "festivalName": "Gajanana Sankashti Chaturthi",
+            "festivalDate": "July 13 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "July 27 2025"
+        },
+        {
+            "festivalName": "Gauri Vrat Begins",
+            "festivalDate": "July 6 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "July 7 2025"
+        },
+        {
+            "festivalName": "Jayaparvati Vrat Begins",
+            "festivalDate": "July 8 2025"
+        },
+        {
+            "festivalName": "Kokila Vrat",
+            "festivalDate": "July 9 2025"
+        },
+        {
+            "festivalName": "Ashadha Purnima Vrat",
+            "festivalDate": "July 9 2025"
+        },
+        {
+            "festivalName": "Gauri Vrat Ends",
+            "festivalDate": "July 10 2025"
+        },
+        {
+            "festivalName": "Jayaparvati Vrat Ends",
+            "festivalDate": "July 13 2025"
+        },
+        {
+            "festivalName": "First Shravan Somwar Vrat",
+            "festivalDate": "July 14 2025"
+        },
+        {
+            "festivalName": "First Mangala Gauri Vrat",
+            "festivalDate": "July 15 2025"
+        },
+        {
+            "festivalName": "Second Shravan Somwar Vrat",
+            "festivalDate": "July 21 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "July 21 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "July 21 2025"
+        },
+        {
+            "festivalName": "Second Mangala Gauri Vrat",
+            "festivalDate": "July 22 2025"
+        },
+        {
+            "festivalName": "Third Shravan Somwar Vrat",
+            "festivalDate": "July 28 2025"
+        },
+        {
+            "festivalName": "Third Mangala Gauri Vrat",
+            "festivalDate": "July 29 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "July 7 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "July 21 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "July 17 2025"
+        },
+        {
+            "festivalName": "Gajanana Sankashti Chaturthi",
+            "festivalDate": "July 13 2025"
+        },
+        {
+            "festivalName": "Shravana Putrada Ekadashi",
+            "festivalDate": "August 4 2025"
+        },
+        {
+            "festivalName": "Aja Ekadashi",
+            "festivalDate": "August 18 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "August 20 2025"
+        },
+        {
+            "festivalName": "Heramba Sankashti Chaturthi",
+            "festivalDate": "August 11 2025"
+        },
+        {
+            "festivalName": "Bahula Chaturthi",
+            "festivalDate": "August 12 2025"
+        },
+        {
+            "festivalName": "Ganesh Chaturthi",
+            "festivalDate": "August 26 2025"
+        },
+        {
+            "festivalName": "Kerala Vinayaka Chaturthi",
+            "festivalDate": "August 26 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "August 26 2025"
+        },
+        {
+            "festivalName": "Fourth Shravan Somwar Vrat",
+            "festivalDate": "August 4 2025"
+        },
+        {
+            "festivalName": "Fourth Mangala Gauri Vrat",
+            "festivalDate": "August 5 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "August 6 2025"
+        },
+        {
+            "festivalName": "Varalakshmi Vrat",
+            "festivalDate": "August 8 2025"
+        },
+        {
+            "festivalName": "Shravana Purnima Vrat",
+            "festivalDate": "August 8 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "August 17 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "August 20 2025"
+        },
+        {
+            "festivalName": "Mahalakshmi Vrat Begins",
+            "festivalDate": "August 30 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "August 6 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "August 20 2025"
+        },
+        {
+            "festivalName": "Janmashtami *Smarta",
+            "festivalDate": "August 15 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "August 15 2025"
+        },
+        {
+            "festivalName": "Janmashtami *ISKCON",
+            "festivalDate": "August 16 2025"
+        },
+        {
+            "festivalName": "Heramba Sankashti Chaturthi",
+            "festivalDate": "August 11 2025"
+        },
+        {
+            "festivalName": "Parsva Ekadashi",
+            "festivalDate": "September 3 2025"
+        },
+        {
+            "festivalName": "Ekadashi Shraddha",
+            "festivalDate": "September 16 2025"
+        },
+        {
+            "festivalName": "Indira Ekadashi",
+            "festivalDate": "September 17 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "September 19 2025"
+        },
+        {
+            "festivalName": "Chaturthi Shraddha",
+            "festivalDate": "September 10 2025"
+        },
+        {
+            "festivalName": "Vighnaraja Sankashti Chaturthi",
+            "festivalDate": "September 10 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "September 25 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "September 4 2025"
+        },
+        {
+            "festivalName": "Bhadrapada Purnima Vrat",
+            "festivalDate": "September 6 2025"
+        },
+        {
+            "festivalName": "Mahalakshmi Vrat Ends",
+            "festivalDate": "September 13 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "September 13 2025"
+        },
+        {
+            "festivalName": "Jivitputrika Vrat",
+            "festivalDate": "September 14 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "September 18 2025"
+        },
+        {
+            "festivalName": "Navratri Begins",
+            "festivalDate": "September 22 2025"
+        },
+        {
+            "festivalName": "Upang Lalita Vrat",
+            "festivalDate": "September 26 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "September 4 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "September 18 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "September 13 2025"
+        },
+        {
+            "festivalName": "Vighnaraja Sankashti Chaturthi",
+            "festivalDate": "September 10 2025"
+        },
+        {
+            "festivalName": "Onam",
+            "festivalDate": "September 4 2025"
+        },
+        {
+            "festivalName": "Papankusha Ekadashi",
+            "festivalDate": "October 2 2025"
+        },
+        {
+            "festivalName": "Vaishnava Papankusha Ekadashi",
+            "festivalDate": "October 3 2025"
+        },
+        {
+            "festivalName": "Rama Ekadashi",
+            "festivalDate": "October 16 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "October 19 2025"
+        },
+        {
+            "festivalName": "Vakratunda Sankashti Chaturthi",
+            "festivalDate": "October 9 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "October 25 2025"
+        },
+        {
+            "festivalName": "Dussehra",
+            "festivalDate": "October 1 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "October 4 2025"
+        },
+        {
+            "festivalName": "Ashwina Purnima Vrat",
+            "festivalDate": "October 6 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "October 10 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "October 18 2025"
+        },
+        {
+            "festivalName": "Kedar Gauri Vrat",
+            "festivalDate": "October 20 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "October 4 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "October 18 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "October 12 2025"
+        },
+        {
+            "festivalName": "Vakratunda Sankashti Chaturthi",
+            "festivalDate": "October 9 2025"
+        },
+        {
+            "festivalName": "Devutthana Ekadashi",
+            "festivalDate": "November 1 2025"
+        },
+        {
+            "festivalName": "Utpanna Ekadashi",
+            "festivalDate": "November 15 2025"
+        },
+        {
+            "festivalName": "Mokshada Ekadashi",
+            "festivalDate": "November 30 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "November 17 2025"
+        },
+        {
+            "festivalName": "Ganadhipa Sankashti Chaturthi",
+            "festivalDate": "November 7 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "November 23 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "November 2 2025"
+        },
+        {
+            "festivalName": "Vishweshwara Vrat",
+            "festivalDate": "November 3 2025"
+        },
+        {
+            "festivalName": "Kartika Purnima Vrat",
+            "festivalDate": "November 4 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "November 7 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "November 16 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "November 2 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "November 16 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "November 11 2025"
+        },
+        {
+            "festivalName": "Ganadhipa Sankashti Chaturthi",
+            "festivalDate": "November 7 2025"
+        },
+        {
+            "festivalName": "Guruvayur Ekadashi",
+            "festivalDate": "December 1 2025"
+        },
+        {
+            "festivalName": "Gauna Mokshada Ekadashi",
+            "festivalDate": "December 1 2025"
+        },
+        {
+            "festivalName": "Vaishnava Mokshada Ekadashi",
+            "festivalDate": "December 1 2025"
+        },
+        {
+            "festivalName": "Saphala Ekadashi",
+            "festivalDate": "December 15 2025"
+        },
+        {
+            "festivalName": "Vaikuntha Ekadashi",
+            "festivalDate": "December 30 2025"
+        },
+        {
+            "festivalName": "Pausha Putrada Ekadashi",
+            "festivalDate": "December 30 2025"
+        },
+        {
+            "festivalName": "Masik Shivaratri",
+            "festivalDate": "December 17 2025"
+        },
+        {
+            "festivalName": "Akhuratha Sankashti Chaturthi",
+            "festivalDate": "December 7 2025"
+        },
+        {
+            "festivalName": "Vinayaka Chaturthi",
+            "festivalDate": "December 23 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "December 2 2025"
+        },
+        {
+            "festivalName": "Rohini Vrat",
+            "festivalDate": "December 4 2025"
+        },
+        {
+            "festivalName": "Margashirsha Purnima Vrat",
+            "festivalDate": "December 4 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "December 16 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "December 31 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "December 2 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "December 16 2025"
+        },
+        {
+            "festivalName": "Pradosh Vrat",
+            "festivalDate": "December 31 2025"
+        },
+        {
+            "festivalName": "Masik Krishna Janmashtami",
+            "festivalDate": "December 11 2025"
+        },
+        {
+            "festivalName": "Akhuratha Sankashti Chaturthi",
+            "festivalDate": "December 7 2025"
+        }
+    ]
+}
