@@ -9,11 +9,11 @@ CACHE_DURATION = 3600
 
 # Mail configuration
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
-app.config['MAIL_PORT'] = 587
+app.config['MAIL_PORT'] = os.getenv("MAIL_PORT")
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'hinduhabitatapp@gmail.com'
+app.config['MAIL_USERNAME'] = os.getenv("MAIL_USERNAME")
 app.config['MAIL_PASSWORD'] = os.getenv("MAIL_PASSWORD")
-app.config['MAIL_DEFAULT_SENDER'] = 'hinduhabitatapp@gmail.com'
+app.config['MAIL_DEFAULT_SENDER'] = os.getenv("MAIL_USERNAME")
 app.config['TESTING'] = False
 app.config['MAIL_SUPPRESS_SEND'] = False
 app.config['SECRET_KEY'] = os.getenv("SECRET_KEY")
@@ -28,7 +28,7 @@ def home():
 
 
 @app.errorhandler(404)
-def not_found():
+def not_found(error):
     return render_template("404.html")
 
 
