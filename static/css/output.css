@@ -558,10 +558,6 @@ video {
   visibility: hidden;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -630,16 +626,8 @@ video {
   height: 0.5px;
 }
 
-.h-\[300px\] {
-  height: 300px;
-}
-
-.h-\[500px\] {
-  height: 500px;
-}
-
-.h-\[555px\] {
-  height: 555px;
+.h-\[520px\] {
+  height: 520px;
 }
 
 .h-\[700px\] {
@@ -648,22 +636,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[520px\] {
-  height: 520px;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-\[1000px\] {
-  height: 1000px;
-}
-
-.h-\[100px\] {
-  height: 100px;
 }
 
 .max-h-\[300px\] {
@@ -686,26 +658,6 @@ video {
   width: 1134px;
 }
 
-.w-\[1232px\] {
-  width: 1232px;
-}
-
-.w-\[320px\] {
-  width: 320px;
-}
-
-.w-\[365px\] {
-  width: 365px;
-}
-
-.w-\[600px\] {
-  width: 600px;
-}
-
-.w-\[850px\] {
-  width: 850px;
-}
-
 .w-auto {
   width: auto;
 }
@@ -719,8 +671,20 @@ video {
   width: min-content;
 }
 
-.min-w-\[1100px\] {
-  min-width: 1100px;
+.max-w-\[1100px\] {
+  max-width: 1100px;
+}
+
+.max-w-\[1232px\] {
+  max-width: 1232px;
+}
+
+.max-w-\[320px\] {
+  max-width: 320px;
+}
+
+.max-w-\[365px\] {
+  max-width: 365px;
 }
 
 .max-w-\[480px\] {
@@ -731,40 +695,8 @@ video {
   max-width: 600px;
 }
 
-.max-w-\[365px\] {
-  max-width: 365px;
-}
-
-.max-w-\[1232px\] {
-  max-width: 1232px;
-}
-
-.max-w-\[1100px\] {
-  max-width: 1100px;
-}
-
-.max-w-\[320px\] {
-  max-width: 320px;
-}
-
-.max-w-full {
-  max-width: 100%;
-}
-
-.max-w-\[1110px\] {
-  max-width: 1110px;
-}
-
-.max-w-\[10px\] {
-  max-width: 10px;
-}
-
-.max-w-\[1000px\] {
-  max-width: 1000px;
-}
-
-.flex-grow {
-  flex-grow: 1;
+.max-w-\[850px\] {
+  max-width: 850px;
 }
 
 .grow {
@@ -792,16 +724,8 @@ video {
   align-items: flex-start;
 }
 
-.items-end {
-  align-items: flex-end;
-}
-
 .items-center {
   align-items: center;
-}
-
-.items-stretch {
-  align-items: stretch;
 }
 
 .justify-start {
@@ -860,12 +784,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(50px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(50px * var(--tw-space-y-reverse));
-}
-
-.space-y-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -990,6 +908,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1020,47 +943,12 @@ video {
   padding-bottom: 65px;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-\[10px\] {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 .pb-14 {
   padding-bottom: 3.5rem;
 }
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pb-\[20px\] {
-  padding-bottom: 20px;
-}
-
-.pt-\[24px\] {
-  padding-top: 24px;
-}
-
-.pt-\[30px\] {
-  padding-top: 30px;
-}
-
-.pt-\[34px\] {
-  padding-top: 34px;
-}
-
-.pt-\[40px\] {
-  padding-top: 40px;
 }
 
 .text-center {
@@ -1083,10 +971,6 @@ video {
   font-size: 16px;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
-}
-
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -1099,16 +983,12 @@ video {
   font-size: 32px;
 }
 
-.text-\[44px\] {
-  font-size: 44px;
-}
-
-.text-\[58px\] {
-  font-size: 58px;
-}
-
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-\[44px\] {
+  font-size: 44px;
 }
 
 .font-bold {
@@ -1129,14 +1009,6 @@ video {
 
 .leading-\[27px\] {
   line-height: 27px;
-}
-
-.leading-\[30px\] {
-  line-height: 30px;
-}
-
-.leading-\[87px\] {
-  line-height: 87px;
 }
 
 .text-\[\#5A5A5A\] {
@@ -1247,10 +1119,6 @@ html {
     display: inline;
   }
 
-  .sm\:w-\[1100px\] {
-    width: 1100px;
-  }
-
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -1263,22 +1131,28 @@ html {
     justify-content: space-between;
   }
 
-  .sm\:text-\[58px\] {
-    font-size: 58px;
+  .sm\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .sm\:text-\[16px\] {
+    font-size: 16px;
+  }
+
+  .sm\:text-\[18px\] {
+    font-size: 18px;
   }
 
   .sm\:text-\[20px\] {
     font-size: 20px;
   }
 
-  .sm\:text-\[16px\] {
-    font-size: 16px;
+  .sm\:text-\[32px\] {
+    font-size: 32px;
   }
-}
 
-@media (min-width: 768px) {
-  .md\:w-\[1100px\] {
-    width: 1100px;
+  .sm\:text-\[58px\] {
+    font-size: 58px;
   }
 }
 
@@ -1293,11 +1167,5 @@ html {
 
   .min-\[850px\]\:justify-between {
     justify-content: space-between;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:w-\[1100px\] {
-    width: 1100px;
   }
 }
