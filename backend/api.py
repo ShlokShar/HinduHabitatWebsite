@@ -1,13 +1,11 @@
 from backend.imports import *
 
-
-
 with open("data.json") as file:
     data = json.load(file)
 
 
 def convert_to_timezone(date_str, timezone):
-    """Convert a date string to the specified timezone."""
+    # Convert a date string to the specified timezone.
     la_tz = pytz.timezone('America/Los_Angeles')
     user_tz = pytz.timezone(timezone)
     date_obj = datetime.strptime(date_str, '%B %d %Y')
@@ -17,14 +15,14 @@ def convert_to_timezone(date_str, timezone):
 
 
 def adjust_festival_dates(festivals, timezone):
-    """Adjust festival dates to the user's timezone."""
+    # Adjust festival dates to the user's timezone.
     for festival in festivals:
         festival['festivalDate'] = convert_to_timezone(festival['festivalDate'], timezone)
     return festivals
 
 
 def get_upcoming_event(user_timezone, event_type="festivals"):
-    """Get the next upcoming event of a specified type."""
+    # Get the next upcoming event of a specified type.
     timezone = pytz.timezone(user_timezone)
     current_date = datetime.now(timezone)
     upcoming = []
@@ -48,7 +46,7 @@ def get_upcoming_event(user_timezone, event_type="festivals"):
 
 
 def fetch_articles():
-    """Fetch the latest articles from the specified website."""
+    # Fetch the latest articles from the specified website.
     url = "https://www.hinduamerican.org/press-statements"
     image_url_pattern = r'background-image:url\((.*?)\);'
     response = requests.get(url)
@@ -74,9 +72,3 @@ def fetch_articles():
         })
 
     return article_data
-
-
-class VariableForm(FlaskForm):
-    var1 = StringField('Variable 1', validators=[InputRequired(), Length(min=1, max=100)])
-    var2 = StringField('Variable 2', validators=[InputRequired(), Length(min=1, max=100)])
-    submit = SubmitField('Update Variables')
