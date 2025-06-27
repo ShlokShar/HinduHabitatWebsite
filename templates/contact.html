@@ -13,7 +13,7 @@
 			rel="stylesheet"
 		/>
 	</head>
-	<body class="flex w-full flex-col items-center bg-[#F6F6F6]">
+	<body class="min-h-screen flex w-full flex-col items-center bg-[#F6F6F6]">
 		<!--HEADER-->
         <div class="sticky top-0 left-0 w-full">
             <div class=" flex w-full justify-between p-4 bg-white">
@@ -28,13 +28,13 @@
                 </div>
             </div>
             <!--DIVIDER-->
-            <div class=" w-full bg-[#e3e3e3] p-[0.5px] h-[0.5px]"></div>
+            <div class="w-full bg-[#e3e3e3] p-[0.5px] h-[0.5px]"></div>
         </div>
         <!--CONTACT FORM-->
-        <div class="flex flex-col space-y-4 font-poppins px-10 py-16 items-center">
-            <p class="text-[32px] font-bold">CONTACT US<span class="text-[#FEB902]">.</span></p>
-            <p class="text-[16px]">have questions or feedback? we'd love to hear from you!</p>
-            <form class="max-w-[480px] rounded-[15px] bg-white p-6 text-[14px]">
+        <div class="flex flex-col space-y-4 font-poppins px-8 py-16 items-center">
+            <p class="text-[20px] sm:text-[32px] font-bold">CONTACT US<span class="text-[#FEB902]">.</span></p>
+            <p class="text-[14px] sm:text-[14px]">have questions or feedback? we'd love to hear from you!</p>
+            <form class="max-w-[480px] rounded-[15px] bg-white p-6 text-[12px] max:text-[14px]">
                 <label for="name">Name</label>
                 <br>
                 <input class="px-1 py-1 rounded-[10px] mt-2 border" id="name" name="name" type="text" placeholder="John Smith">
@@ -53,10 +53,11 @@
                 <input style="background: linear-gradient(to right, #FEB902 50%, #6E4B04 50%); background-size: 200% 100%; background-position: right bottom; transition: background-position 0.5s ease;" onmouseover="this.style.backgroundPosition='left bottom'" onmouseout="this.style.backgroundPosition='right bottom'" class="py-1 w-full px-4 rounded-[15px] bg-primary text-white" type="submit" value="Submit">
             </form>
         </div>
+        <div class="flex grow"></div>
         <!--FOOTER-->
-        <div class="flex flex-col w-full items-center">
-            <div class="relative w-full bg-[#e3e3e3] p-[0.5px] h-[0.5px]"></div>
-            <div class="flex flex-row w-[1100px] py-[20px] font-poppins justify-between items-center">
+        <div class="flex flex-col w-full items-center justify-center">
+            <div class="w-full bg-[#e3e3e3] p-[0.5px] h-[0.5px]"></div>
+            <div class="flex flex-col sm:flex-row w-full max-w-[1100px] py-[20px] font-poppins justify-between items-center px-8">
                 <div class="flex justify-between items-center space-x-1.5">
                     <img
                         src="./../static/img/main/logo.png"
