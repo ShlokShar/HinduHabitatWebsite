@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Home</title>
-		<link rel="icon" type="image/x-icon" href="../static/img/favicon.ico" />
+		<title>Hindu Habitat</title>
+		<link rel="icon" type="image/x-icon" href="../static/img/favicon.ico?v=2" />
 		<link href="../static/css/output.css" rel="stylesheet" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,26 +15,32 @@
 	</head>
 	<body class="flex min-h-screen w-full flex-col items-center">
 		<!--HEADER-->
-		<div class="flex w-full justify-between p-4">
-			<div class="flex justify-between items-center space-x-4 text-red-500">
-				<img
-					src="./../static/img/home/icon.png"
-					width="50px"
-					height="50px"
-					class="rounded-[10px]",
-				/>
-                <p class="font-poppins font-extrabold text-[26px] text-primary">Hindu Habitat</p>
-			</div>
-            <div class="flex justify-between items-center space-x-6 text-[14px] font-poppins font-semibold">
-                <p class="text-primary">Features</p>
-                <p class="text-primary">Donate</p>
-                <p class="text-white bg-primary px-3 py-2 rounded-[15px]">
-                    Download
-                </p>
+        <div class="fixed top-0 left-0 w-full">
+            <div class="relative flex w-full justify-between p-4 bg-white">
+                <div class="flex justify-between items-center space-x-4">
+                    <img
+                        src="./../static/img/home/icon.png"
+                        width="50px"
+                        height="50px"
+                        class="rounded-[10px]",
+                    />
+                    <p class="font-poppins font-bold text-[26px] text-primary">Hindu Habitat</p>
+                </div>
+                <div class="flex justify-between items-center space-x-6 text-[14px] font-poppins font-semibold">
+                    <a href="#features"><p class="text-primary hover: ">Features</p></a>
+                    <a href="https://www.paypal.com/paypalme/hinduhabitat"><p class="text-primary">Donate</p></a>
+                    <a href="https://apps.apple.com/us/app/hindu-habitat/id6450930877" class="relative inline-flex items-center justify-center p-10 px-3 py-2 overflow-hidden font-medium text-primary transition duration-300 ease-out border-2 border-primary rounded-full shadow-md group bg-primary">
+                        <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-primary group-hover:translate-x-0 ease">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </span>
+                        <span class="absolute flex items-center justify-center w-full h-full text-white transition-all duration-300 transform group-hover:translate-x-full ease bg-primary">Download</span>
+                        <span class="relative invisible">Download</span>
+                    </a>
+                </div>
             </div>
-		</div>
-        <!--DIVIDER-->
-        <hr class="text-[#C8C8C8]">
+            <!--DIVIDER-->
+            <div class="relative w-full bg-[#e3e3e3] p-[0.5px] h-[0.5px]"></div>
+        </div>
         <!--MISSION-->
         <div class="flex flex-col h-[555px] justify-center items-center font-poppins text-center space-y-[32px]">
             <p class="text-[58px] font-bold leading-[87px] w-[600px]">Bring Your Daily Devotion to Life</p>
@@ -48,8 +54,47 @@
             <img src="../static/img/mockups/calendar-portrait.png" width="386px" class="mt-[-150px]">
         </div>
         <!--FEATURES-->
-        <div>
-            
+        <div id="features" class="flex flex-col w-[1100px] h-[500px] py-[65px] font-poppins space-y-[50px]">
+            <p class="w-full text-center font-semibold text-[20px]">FEATURES</p>
+            <div class="flex flex-row items-start justify-around">
+                <div class="p-4 flex flex-col space-y-4 items-center justify-start w-[320px] h-[300px] hover:translate-y-0.5 transform transition duration-200">
+                    <div class="p-2.5 bg-accent rounded-[10px] w-min"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M440-278v-394q-41-24-87-36t-93-12q-36 0-71.5 7T120-692v396q35-12 69.5-18t70.5-6q47 0 91.5 10.5T440-278Zm40 118q-48-38-104-59t-116-21q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q46-24 96-36t102-12q74 0 126 17t112 52q11 6 16.5 14t5.5 21v418q44-21 88.5-31.5T700-320q36 0 70.5 6t69.5 18v-481q15 5 29.5 11t28.5 14q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-60 0-116 21t-104 59Zm140-240v-440l120-40v440l-120 40Zm-340-99Z"/></svg></div>
+                    <p class="text-center font-semibold text-[20px]">The Bhagavad Gita</p>
+                    <p class="text-[16px] text-[#5A5A5A] text-center ">Read all 18 chapters of the Bhagavad Gita translated to English. Enjoy a clean, user-friendly interface that lets you explore timeless teachings.</p>
+                </div>
+                <div class="p-4 flex flex-col space-y-4 items-center justify-start w-[320px] h-[300px hover:translate-y-0.5 transform transition duration-200">
+                    <div class="p-2.5 bg-accent rounded-[10px] w-min"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Zm280 240q-17 0-28.5-11.5T440-440q0-17 11.5-28.5T480-480q17 0 28.5 11.5T520-440q0 17-11.5 28.5T480-400Zm-160 0q-17 0-28.5-11.5T280-440q0-17 11.5-28.5T320-480q17 0 28.5 11.5T360-440q0 17-11.5 28.5T320-400Zm320 0q-17 0-28.5-11.5T600-440q0-17 11.5-28.5T640-480q17 0 28.5 11.5T680-440q0 17-11.5 28.5T640-400ZM480-240q-17 0-28.5-11.5T440-280q0-17 11.5-28.5T480-320q17 0 28.5 11.5T520-280q0 17-11.5 28.5T480-240Zm-160 0q-17 0-28.5-11.5T280-280q0-17 11.5-28.5T320-320q17 0 28.5 11.5T360-280q0 17-11.5 28.5T320-240Zm320 0q-17 0-28.5-11.5T600-280q0-17 11.5-28.5T640-320q17 0 28.5 11.5T680-280q0 17-11.5 28.5T640-240Z"/></svg></div>
+                    <p class="text-center font-semibold text-[20px]">Calendars</p>
+                    <p class="text-[16px] text-[#5A5A5A] text-center ">Quickly access the names and dates of several upcoming Hindu events using the Festivals and Fasting Calendar tool.</p>
+                </div>
+                <div class="p-4 flex flex-col space-y-4 items-center justify-start w-[320px] h-[300px hover:translate-y-0.5 transform transition duration-200">
+                    <div class="p-2.5 bg-accent rounded-[10px] w-min"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="M230-80q-45.83 0-77.92-32.08Q120-144.17 120-190v-130h120v-560h600v690q0 45.83-32.08 77.92Q775.83-80 730-80H230Zm499.94-66.67q18.39 0 30.89-12.45 12.5-12.46 12.5-30.88v-623.33H306.67V-320h380v130q0 18.42 12.44 30.88 12.44 12.45 30.83 12.45ZM360-626.67v-66.66h360v66.66H360Zm0 120v-66.66h360v66.66H360Zm-130.67 360H620v-106.66H186.67V-190q0 18.42 12.5 30.88 12.5 12.45 30.16 12.45Zm0 0h-42.66H620 229.33Z"/></svg></div>
+                    <p class="text-center font-semibold text-[20px]">Prayers</p>
+                    <p class="text-[16px] text-[#5A5A5A] text-center">Access three key Hindu prayers, clearly displayed for easy reading. Quickly navigate, recite, and deepen your spiritual practice anytime, anywhere.</p>
+                </div>
+            </div>
         </div>
+        <!--FOOTER-->
+        <div class="flex flex-col w-full items-center">
+            <div class="relative w-full bg-[#e3e3e3] p-[0.5px] h-[0.5px]"></div>
+            <div class="flex flex-row w-[1100px] py-[20px] font-poppins justify-between items-center">
+                <div class="flex justify-between items-center space-x-1.5">
+                    <img
+                        src="./../static/img/home/logo.png"
+                        width="40px"
+                        height="40px"
+                        class="rounded-[10px]",
+                    />
+                    <p class="font-poppins font-semibold text-[16px] text-primary">Hindu Habitat</p>
+                </div>
+                <div class="text-[#696868] text-[12px]">
+                    © Hindu Habitat 2025
+                </div>
+                <div class="flex justify-between items-center space-x-4 text-[#696868] text-[12px] font-poppins font-semibold">
+                    <a href="" class="">Privacy Policy</a>
+                    <a href="" class="">Contact Us</a>
+                </div>
+            </div>
+        </div>  
 	</body>
 </html>
