@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c924d8a8-914d-4df2-9970-9c1e89194c61" name="hinduhabitat" url="https://hinduhabitat.us">
+        <fileTransfer rootFolder="/home/shlok/HinduHabitat" accessType="SFTP" host="107.172.108.44" port="22" sshConfigId="7d67ed7a-156b-4671-8c87-e50f2140972f" sshConfig="root@107.172.108.44:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

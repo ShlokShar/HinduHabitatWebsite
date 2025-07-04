@@ -93,5 +93,10 @@ def get_articles():
     return jsonify(cache_data)
 
 
+@app.route("/app-ads.txt")
+def app_ads():
+    return send_from_directory('static', 'app-ads.txt', mimetype='text/plain')
+
+
 if __name__ == '__main__':
     app.run()
